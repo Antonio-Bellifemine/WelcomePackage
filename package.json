@@ -1,0 +1,19 @@
+{
+  "name": "cypress-test-app",
+  "version": "1.0.0",
+  "description": "Conduit testing cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio B.",
+  "license": "ISC",
+  "dependencies": {
+    "chancejs": "0.0.8",
+    "cypress": "^6.1.0",
+    "cypress-wait-until": "^1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}

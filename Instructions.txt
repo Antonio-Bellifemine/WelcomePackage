@@ -1,0 +1,9 @@
+Welcome to The Course!!
+Before we begin...
+
+Please follow the instructions below to set up your environment.
+    1. install Jquery injector in your chrome browser ==> https://chrome.google.com/webstore/search/jquery%20injector
+    2. open visual studio and install extention 'txt syntax'
+    3.
+    4.
+

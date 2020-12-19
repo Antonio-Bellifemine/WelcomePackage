@@ -1,30 +1,28 @@
-Feature:
+Feature: Module 4 - HomePage
 Description:
 
-    scenerio: 
-        GIVEN:
-        WHEN: 
-        AND:
-        THEN: 
+    scenerio: User logs in
+        GIVEN: A user successfully logs in
+        WHEN: The home page loads
+        AND: The user has no articles
+        THEN: 'your feed' should display "No articles are here... yet."
 
 ---------------------------------------------------------------------
 
-        WHEN:
-        AND: 
-        THEN:
+        WHEN: The application Home page loads 
+        AND: The User Has Articles
+        THEN: 'Your Feed' Should display the current users articles
 
 ---------------------------------------------------------------------
-
-    scenerio: 
-        WHEN: 
-        THEN: 
+Background: User is on global feed
+    scenerio: User clicks 'global feed'
+        WHEN: The user Clicks a like Button on a post
+        THEN: The like button counter should increase by 1
 
 -----------------------------Challenge--------------------------------
-Background: 
-    GIVEN:
-    scenerio: 
-        WHEN: 
-        THEN: 
+
+        WHEN: The user Clicks a like Button on a post that was already liked
+        THEN: The like button counter should decrease by 1
 
 -----------------------------Challenge--------------------------------
 

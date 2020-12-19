@@ -1,30 +1,30 @@
-Feature:
-Description:
+Feature: Module 8 - Profile Page
+Description: This feature tests the 'User Profile' Page
 
-    Background:
-        GIVEN: 
-        THEN:
-        AND: 
-        AND: 
-
----------------------------------------------------------------------
-
-        WHEN:
-        THEN:
+    Background: User Clicks 'Profile Page' Button
+        GIVEN: a user is on the 'User Profile' Page
+        THEN: The 'User Avatar' Should be visible
+        AND: 'UserName' Should be visible
+        AND: an 'Edit Profile Settings' button Should be visible and active
 
 ---------------------------------------------------------------------
 
-    scenerio: 
-        GIVEN:
-        WHEN: 
-        THEN: 
+        WHEN: The 'Profile Page' loads
+        THEN: 'My Articles' should be visible
+
+---------------------------------------------------------------------
+
+    scenerio: User clicks on 'Favorited Articles'
+        GIVEN: A user has no favorited articles
+        WHEN: The user clicks 'Favorited Articles'
+        THEN: 'No articles are here... yet.' should be visible
 
 -----------------------------Challenge--------------------------------
 
-    scenerio:
-        GIVEN:
-        WHEN: 
-        THEN: 
+    scenerio: User clicks on 'Favorited Articles'
+        GIVEN: A user has favorited articles
+        WHEN: The user clicks 'Favorited Articles'
+        THEN: The 'Users' Favorited Articles should be visible
 
 -----------------------------Challenge--------------------------------
 

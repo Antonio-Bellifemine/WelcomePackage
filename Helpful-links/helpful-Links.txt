@@ -1,8 +1,6 @@
 ================================================================
 Here is some documentation you may find helpful if you get stuck
 ================================================================
-
-
 Chai Assertion Library Docs
     https://www.chaijs.com/api/
 

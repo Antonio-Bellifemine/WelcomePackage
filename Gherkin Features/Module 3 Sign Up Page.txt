@@ -1,25 +1,25 @@
-Feature: 
-Description:
+Feature: Module 3 - Registration Page
+Description: The User is on the registration page
 
-    Background:
-        GIVEN:
-        WHEN: 
-        THEN: 
-        AND: 
+        GIVEN: a User is on the 'registration page'
+        WHEN: user clicks 'Have an account'
+        THEN: The application should redirect to the 'Sign in' Page
 
 ---------------------------------------------------------------------
 
-        WHEN:
-        THEN:
-        AND: 
-        AND: 
+        WHEN: The 'Sign up' Page loads
+        THEN: a 'Username' input should be visible
+        AND: a 'Email' input should be visible
+        AND: a 'Password' input should be visible
 
 ---------------------------------------------------------------------
 
-    scenerio: 
-        GIVEN:
-        WHEN: 
-        THEN:
+    scenerio: User sign up
+        GIVEN: User has entered a proper Username
+        AND: The user has entered a proper Email
+        AND: The user has entered a proper Password
+        WHEN: The user clicks 'Sign Up'
+        THEN: The User Home page should load
 
 -----------------------------Challenge--------------------------------
 

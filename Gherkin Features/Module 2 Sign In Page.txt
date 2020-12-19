@@ -1,32 +1,26 @@
-Feature: 
-Description: 
+Feature: Module - 2 'Sign in' Page
+Description: User is Not Logged in on the sign in page
 
-    Background:
-        GIVEN:
-        WHEN:
-        THEN:
-        AND:
+        GIVEN: Given the user is on the sign in page
+        WHEN: the page loads
+        THEN: a Green 'sign in' Button should be visible & be active
 
 ---------------------------------------------------------------------
 
-        WHEN:
-        THEN:
-        AND:
-        AND:
+        WHEN: The user clicks 'Sign In' 
+        AND: there is no username or Password
+        THEN: The user should be alerted
 
 ---------------------------------------------------------------------
 
-    scenerio: 
-        GIVEN:
-        WHEN: 
-        THEN: 
+        GIVEN: The Username and Password are not correct
+        WHEN: User clicks on 'Sign in'
+        THEN: The user should be alerted that the email and or password is invalid
 
 -----------------------------Challenge--------------------------------
 
-    scenerio: 
-        GIVEN:
-        WHEN: 
-        THEN: 
+        GIVEN: The user clicks on 'Need an account' link
+        THEN: The application should redirect to the 'Sign Up' Page
         
 -----------------------------Challenge--------------------------------
 

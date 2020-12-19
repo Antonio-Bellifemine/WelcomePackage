@@ -1,22 +1,22 @@
-Feature:
-Description:
+Feature: Module 6 - New Post page
+Description: User is on the 'New Post' Page
 
-    Background:
-        GIVEN:
-        THEN: 
-        AND:
+        GIVEN: A User is on a newly created post
+        THEN: 1 'Edit Article' Button should be Active and Be visible
+        AND: 1 'Delete Article' Button should be Active and Be visible
 
 --------------------------------------------------------------------
 
-        GIVEN:
-        WHEN: 
-        THEN: 
+        GIVEN: A User is on a newly created post
+        WHEN: The User clicks 'Delete Article'
+        THEN: The user should be redirected back to the 'Home' Page
 
 ---------------------------------------------------------------------
 
-        GIVEN:
-        THEN: 
-        AND: 
+       GIVEN: A User is on a newly created post
+        THEN: A 'Comment section' should be visible 
+        AND: A green 'Post Comment' button should be active and be visible
+
 
 --------------------------------------------------------------------
 
